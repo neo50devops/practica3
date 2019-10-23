@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'terraform init'
+        sh 'ls'
       }
     }
   }
